@@ -1,0 +1,10 @@
+                                            Pasajero
+
+                                    - nombre: String
+                                    - pasaporte: String
+                                    - nacionalidad: String
+
+                        + Pasajero(n: String, p: String, nacio: String)
+                                    + getNombre(): String
+                                    + getPasaporte(): String
+                                    + getNacionalidad(): String
