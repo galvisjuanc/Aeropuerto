@@ -1,0 +1,20 @@
+                                            Vuelos
+
+                                    - identificador: String
+                                    - ciudadOrigen: String
+                                    - ciudadDestino: String
+                                    - precio: double
+                                    - numMaxPasajeros: int
+                                    - numActualPasajeros: int
+                                    - listaPasajeros: Pasajero[*]
+
+                    + Vuelo(id: String, ciudadO: String, ciudadD: String, p: double, max: int)
+                                    + getIdentificador(): String
+                                    + insertarPasajero(p: Pasajero): void
+                                    + getCiudadOrigen(): String
+                                    + getCiudadDestino(): String
+                                    + getPrecio(): double
+                                    + getNumMaxPasajeros(): int
+                                    + getNumActualPasajeros(): int
+                                    + getPasajero(i: int): Pasajero
+                                    + getPasajero(pasaporte: String): Pasajero

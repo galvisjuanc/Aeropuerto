@@ -1,0 +1,13 @@
+                                            Compañía
+
+                                        - nombre: String
+                                        - listaVuelos:  Vuelo[*]
+                                        - numVuelo: int = 0
+
+                                        + Compañía(n: String)
+                                        + Compañía(n: String, v: Vuelo)
+                                        + insertarVuelo(vuelo: Vuelo): void
+                                        + getNombre(): String
+                                        + getNumeroVuelos(): int
+                                        + getVuelo(i: int): Vuelo
+                                        + getVuelo(id: String): Vuelo
