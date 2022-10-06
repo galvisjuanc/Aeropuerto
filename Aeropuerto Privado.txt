@@ -1,0 +1,10 @@
+                                            Aeropuerto Privado
+
+                                            - empresas: String[*]
+                                            - numEmpresa: int
+
+                            + AeropuertoPrivado (n: String, c: String, p: String)
+                    + AeropuertoPrivado (n: String, c: String, p: String, co: Compañia[], e: Empresa[])
+                                    + insertarEmpresas(empresa: Empresa): void
+                                    + insertarEmpresa(empresa: Empresa): void
+                                            + getEmpresas(): String

@@ -1,0 +1,18 @@
+                                            Aeropuerto
+
+                                        - nombre: String
+                                        - ciudad: String
+                                        - pais: String
+                                        - listaCompañias: Compañias[*]
+                                        - numCompania: int
+
+                            + Aeropuerto(n: String, c: String, p: String)
+                            + Aeropuerto(n: String, c: String, p: String, co: Compañia)
+                            + insertarCompañia(compañia: Compañia): void
+                                        + getNombre(): String
+                                        + getCiudad(): String
+                                        + getPais(): String
+                                        + obtenerCompañias(): Compañia
+                                        + getNumeroCompañia(): int
+                                        + getCompañia(i: int): Compañia
+                                    + getCompañia(nombre: String): Compañia

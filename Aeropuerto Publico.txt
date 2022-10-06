@@ -1,0 +1,8 @@
+                                            Aeropuerto Publico
+
+                                            - subvencion: double
+
+                                + AeropuertoPublico (n: String, c: String, p: String)
+                    + AeropuertoPublico (n: String, c: String, p: String, co: Compañia[], sub: double)
+                            + AeropuertoPublico (n: String, c: String, p: String, sub: double)
+                                            + getSubvencion(): double
