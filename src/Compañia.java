@@ -34,15 +34,30 @@ public class Compañia {
     public Vuelo getVuelo(String id){
         boolean encontrado = false;
         int i = 0;
-        Vuelo vuelo = null;
+        Vuelo v = null;
 
-        while ((!encontrado) && (1 < listaVuelos.length)){
-            if(id.equals(vuelo.getIdentificador())){
+        while ((!encontrado) && (i < listaVuelos.length)){
+            if(id.equals(listaVuelos[i].getIdentificador())){
                 encontrado = true;
-                vuelo = listaVuelos[i];
+                v = listaVuelos[i];
             }
             i++;
         }
-        return vuelo;
+        return v;
+
+        /**
+         *         boolean encontrado = false;
+         *         int i = 0;
+         *         Pasajero pas = null;
+         *         while(!encontrado && (i < listaPasajeros.length)){
+         *             //if(pasaporte == listaPasajeros[i].getPasaporte()){
+         *             if(pasaporte.equals(listaPasajeros[i].getPasaporte())){
+         *                 encontrado = true;
+         *                 pas = listaPasajeros[i];
+         *             }
+         *             i++;
+         *         }
+         *         return pas;
+         * */
     }
 }
